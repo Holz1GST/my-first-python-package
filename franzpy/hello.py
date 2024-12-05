@@ -12,11 +12,15 @@ def make_compliment(moderator = "Luuk"):
     
     Returns
     -------
-    None
+    opinion : str
+        The compliment to the moderator of the seminar session.
 
     Examples
     --------
     >>> make_compliment("Luuk")
     
     """
-    print("This was a great idea for a seminar session, " + moderator + "-MVP!", emojize(":star-struck:"))
+    opinion = "This was a great idea for a seminar session, " + moderator + "-MVP!" + emojize(":star-struck:")
+    print(opinion)
+
+    return opinion
