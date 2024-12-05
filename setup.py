@@ -12,12 +12,12 @@ except FileNotFoundError:
 
 # Metadata
 setup(
-  name = "Type here the name of your package",
-  version = 0.0.0.9000,
-  author = "Type here your name",
-  author_email = "Type here your email",
-  description = "Describe here your package in one sentence",
-  license = "Type here what license your package has",
+  name = "franzpy",
+  version = "0.0.0.9000",
+  author = "Franz Welscher",
+  author_email = "franz.welscher@plus.ac.at",
+  description = "The great-idea-for-a-seminar-session-luuk-package!",
+  license = "Apache License 2.0",
   packages = find_packages(),
   install_requires = requirements
 )
