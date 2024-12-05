@@ -1,3 +1,5 @@
+from emoji import emojize
+
 def make_compliment(moderator = "Luuk"):
     """The make_compliment function.
 
@@ -17,4 +19,4 @@ def make_compliment(moderator = "Luuk"):
     >>> make_compliment("Luuk")
     
     """
-    print("This was a great idea for a seminar session, " + moderator + "-MVP!")
+    print("This was a great idea for a seminar session, " + moderator + "-MVP!", emojize(":star-struck:"))

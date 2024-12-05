@@ -1,1 +1,1 @@
-from hello import make_compliment
+from franzpy.hello import make_compliment
